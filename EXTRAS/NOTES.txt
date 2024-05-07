@@ -1,0 +1,2 @@
+Don't use python's default secret key, generate a new with code below
+python -c "import secrets; print(secrets.token_urlsafe(38))" 
